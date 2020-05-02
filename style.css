@@ -1,0 +1,84 @@
+/*body {
+  outline: 1px solid black;
+} */
+
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+  
+  background:url(stadium.jpg);
+  
+  
+}
+
+
+.container{
+  max-width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column-reverse;
+}
+
+
+.card-group{
+  max-width: 100%;
+  display: flex;
+  padding: 50px;
+  box-sizing: border-box;
+  flex-direction: row;
+  
+}
+
+.card{
+  flex: 1;
+  padding: 30px;
+  font-size: 12px;
+  margin: 3px;
+}
+
+.floatingimagetext {
+  text-align: center;
+}
+
+
+.card1{
+  margin-top: auto;
+  color: whitesmoke;
+}
+
+footer{
+  background: url(stadium.jpg);
+  color: whitesmoke; 
+}
+
+.card-img-top{
+  border-radius: 100%;
+  
+}
+.card-title{
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .tabs {
+    display: none;
+  }
+
+  .container{
+   flex-direction: column-reverse; 
+  }
+}
+
+
+
+@media only screen and (min-width: 576px) {
+  .spill-out {
+    position: absolute;
+    bottom: -2% }
+
+    }
+    @media screen and (max-width: 768px){
+      .card-group{
+        flex-direction: column-reverse;
+      }
+    }
